@@ -24,6 +24,6 @@ public class Main {
 
         brutto = nettoPreis + steuer;
         System.out.println("Brutto: " + brutto);
-        
+
     }
 }
