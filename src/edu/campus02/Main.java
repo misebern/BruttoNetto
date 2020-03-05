@@ -25,5 +25,19 @@ public class Main {
         brutto = nettoPreis + steuer;
         System.out.println("Brutto: " + brutto);
 
+
+
+        double ergebnis = bruttoPreis(200, 0.2);
+
+        System.out.println("Bruttopreis: " + ergebnis);
+
     }
+
+    public static double bruttoPreis (int preis, double steuer) {
+        double ergebnis;
+        ergebnis= preis + preis*steuer;
+        return ergebnis;
+    }
+
 }
+
